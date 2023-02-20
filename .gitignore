@@ -15,7 +15,7 @@ Datasets/Montgomery/*
 
 !Datasets/Montgomery_Shenzen/
 Datasets/Montgomery_Shenzen/*
-!Datasets/Montgomery_Shenzen/*.txt
+!Datasets/Montgomery_Shenzen/.gitkeep
 
 !Datasets/Padchest
 Datasets/Padchest/*
@@ -26,7 +26,7 @@ Datasets/Shenzen/*
 !Datasets/Shenzen/*.txt
 
 Evaluation/*
-!Evaluation/*.ipynb
+!Evaluation/Evaluate*.ipynb
 
 models/*
 !models/*.py
