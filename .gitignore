@@ -13,15 +13,15 @@ Datasets/JSRT_Padchest/*
 Datasets/Montgomery/*
 !Datasets/Montgomery/*.txt
 
-!Dataset/Montgomery_Shenzen/
+!Datasets/Montgomery_Shenzen/
 Datasets/Montgomery_Shenzen/*
 !Datasets/Montgomery_Shenzen/*.txt
 
-!Dataset/Padchest
+!Datasets/Padchest
 Datasets/Padchest/*
 !Datasets/Padchest/*.txt
 
-!Dataset/Shenzen
+!Datasets/Shenzen
 Datasets/Shenzen/*
 !Datasets/Shenzen/*.txt
 
