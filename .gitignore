@@ -1,14 +1,9 @@
 archive
 
-Datasets/*
-!Datasets/*/Test/.gitkeep
-!Datasets/*/Train/.gitkeep
-!Datasets/*/Val/.gitkeep
-
+Datasets
 
 Evaluation/*
 !Evaluation/*.ipynb
-!Evaluation/Graphics/ARCHITECTURE.png
 
 models/*
 !models/*.py
@@ -28,6 +23,11 @@ weights/*
 !weights/JSRT_Padchest/
 weights/JSRT_Padchest/*
 !weights/JSRT_Padchest/.gitkeep
+
+!weights/Montgomery_Shenzen/
+weights/Montgomery_Shenzen/*
+!weights/Montgomery_Shenzen/.gitkeep
+
 
 *.qsub
 *.ipynb
