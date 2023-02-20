@@ -25,6 +25,8 @@ utils/*
 Visualise_Training
 
 weights/*
+!weights/JSRT_Padchest/
+weights/JSRT_Padchest/*
 !weights/JSRT_Padchest/.gitkeep
 
 *.qsub
