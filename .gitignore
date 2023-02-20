@@ -25,7 +25,7 @@ utils/*
 Visualise_Training
 
 weights/*
-!weights/*/.gitkeep
+!weights/JSRT_Padchest/.gitkeep
 
 *.qsub
 *.ipynb
