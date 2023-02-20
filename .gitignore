@@ -1,9 +1,14 @@
 archive
 
-Datasets
+Datasets/*
+!Datasets/*/Test/.gitkeep
+!Datasets/*/Train/.gitkeep
+!Datasets/*/Val/.gitkeep
+
 
 Evaluation/*
-!Evaluation/*.pynb
+!Evaluation/*.ipynb
+!Evaluation/Graphics/ARCHITECTURE.png
 
 models/*
 !models/*.py
@@ -19,7 +24,8 @@ utils/*
 
 Visualise_Training
 
-weights
+weights/*
+!weights/*/.gitkeep
 
 *.qsub
 *.ipynb
