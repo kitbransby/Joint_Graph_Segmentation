@@ -1,20 +1,28 @@
-/* 
+archive
 
-!.gitignore
-!/Train/
-!*/models/*.py
-!*/Datasets/Montgomery_Shenzen/Train/.gitkeep
-!*/Datasets/Montgomery_Shenzen/Val/.gitkeep
-!*/Datasets/Montgomery_Shenzen/Test/.gitkeep
-!*/Datasets/JSRT_Padchest/Train/.gitkeep
-!*/Datasets/JSRT_Padchest/Val/.gitkeep
-!*/Datasets/JSRT_Padchest/Test/.gitkeep
-!*/Evaluation/Graphics/ARCHITECTURE.png
-!*/Evaluation/*/Scores/*
-!*/utils/*.py
-!*/weights/Montgomery_Shenzen/.gitkeep
-!*/weights/JSRT_Padchest/.gitkeep
-!README.md
+Datasets
+
+Evaluation/*
+!Evaluation/*.pynb
+
+models/*
+!models/*.py
+ 
+MICCAI_2023
+
+rasterizer
+
+Results
+
+utils/*
+!utils/*.py
+
+Visualise_Training
+
+weights
+
+*.qsub
+*.ipynb
 
 
 
