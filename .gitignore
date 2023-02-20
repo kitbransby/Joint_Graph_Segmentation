@@ -9,7 +9,7 @@ Datasets/JSRT/*
 Datasets/JSRT_Padchest/*
 !Datasets/JSRT_Padchest/*.txt
 
-!Dataset/Montgomery/
+!Datasets/Montgomery/
 Datasets/Montgomery/*
 !Datasets/Montgomery/*.txt
 
