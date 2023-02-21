@@ -1,7 +1,7 @@
 # Datasets
 ### Structure
 
-Please structure your directories as below:
+Structure your directories as below:
 ```
 Datasets
 │   README.md
@@ -47,4 +47,4 @@ Run `preprocess.ipynb` in each single directory folder
 
 ### Combined Datasets
 
-To create combined datasets, simply copy and paste files from single dataset directories
+To create combined datasets, simply copy and paste files from single dataset train/val/test directories to the combined dataset train/val/test directories
