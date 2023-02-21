@@ -54,6 +54,5 @@ weights/Montgomery_Shenzen/*
 
 *.qsub
 *.ipynb
-
-
+!Evaluation/*.ipynb
 
