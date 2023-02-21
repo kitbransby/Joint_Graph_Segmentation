@@ -26,5 +26,5 @@ Training weights will be saved to `Results/` dir.
 ### Paper Reproducibility 
 
 To reproduce the results in the paper, first download the model weights [here](https://drive.google.com/drive/folders/1V-Ohw1_EbIr4rBnk7h8OgRpvWE-JeyJ4?usp=sharing), and place them in the relevant `weights/`
-directory. To evaluate the models, run the evaluation scripts in `Evaluate/`, making sure that you have created the directories as described in `Evaluate/README.md`
+directory. Run the evaluation scripts in `Evaluate/`, making sure that the directories described in `Evaluate/README.md` have been created. 
 

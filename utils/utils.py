@@ -181,62 +181,6 @@ def genMatrixesLungs():
     
     return A, AD, D, U, E, ED
 
-def QCA_adj(N):
-
-    A = np.zeros((N,N))
-    for i in range(N):
-        if i == 0: 
-            A[i,i+1] = 1
-            A[i+1,i] = 1
-        elif i == N-1:
-            A[i, i-1] = 1
-            A[i-1, i] = 1
-        else:
-            A[i, i-1] = 1
-            A[i-1, i] = 1
-            A[i, i+1] = 1
-            A[i+1, i] = 1
-
-    A[(N//2)-1,N//2] = 0
-    A[N//2,(N//2)-1] = 0
-    
-    return A
-
-
-def genMatrixesQCA():
-    UPP = 97
-    LOW = 97
-
-    A = QCA_adj(194)
-    AD = QCA_adj(98)
-
-    Dsub1 = mOrganD(UPP)
-    Dsub2 = mOrganD(LOW)
-
-    Usub1 = mOrganU(UPP)
-    Usub2 = mOrganU(LOW)
-
-    p1 = UPP
-    p2 = p1 + LOW
-
-    p1_ = int(np.ceil(UPP / 2))
-    p2_ = p1_ + int(np.ceil(LOW / 2))
-
-    D = np.zeros([p2_, p2])
-
-    D[:p1_, :p1] = Dsub1
-    D[p1_:p2_, p1:p2] = Dsub2
-
-    U = np.zeros([p2, p2_])
-
-    U[:p1, :p1_] = Usub1
-    U[p1:p2, p1_:p2_] = Usub2
-    
-    E = np.stack(np.nonzero(A)).T
-    ED = np.stack(np.nonzero(AD)).T
-
-    return A, AD, D, U, E, ED
-
 def genMatrixesLH():       
     RLUNG = 44
     LLUNG = 50

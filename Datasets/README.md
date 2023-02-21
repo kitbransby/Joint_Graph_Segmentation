@@ -6,7 +6,7 @@ Structure your directories as below:
 Datasets
 │   README.md
 │       
-└───*Single Dataset* ('JSRT', 'Padchest', 'Montgomery' or 'Shenzen')
+└───*Single Dataset* ('JSRT', 'Padchest', 'Montgomery', 'Shenzen')
 │   │   train_list.txt
 │   │   val_list.txt
 │   │   test_list.txt
@@ -19,7 +19,7 @@ Datasets
 │   │   └───Masks
 │   │   └───SDF
 │   
-└───*Combined Dataset* ('JSRT_Padchest', or 'Montgomery_Shenzen')
+└───*Combined Dataset* ('JSRT_Padchest', 'Montgomery_Shenzen')
 │   └───*Set* ('Train', 'Val', 'Test')
 │       └───Images
 │       └───Landmarks

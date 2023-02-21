@@ -118,22 +118,3 @@ def drawBinary(img, organ):
     
     return img
 
-def drawBinaryQCA(output):
-    
-    blank = np.zeros([256, 256])
-    
-    contours = output.reshape(-1, 1, 2)
-    contours = contours.astype('int')
-    
-    #contours_reorder = np.concatenate([contours[:97], contours[97:][::-1]])
-    
-    #print(contours_reorder.shape)
-
-    contours[0][0][0] = 0
-    contours[96][0][0] = 255
-    contours[97][0][0] = 255
-    contours[-1][0][0] = 0
-    
-    img = cv2.drawContours(blank, [contours], -1, 255, -1) / 255.0
-    
-    return img

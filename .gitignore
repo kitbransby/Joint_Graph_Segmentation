@@ -13,6 +13,7 @@ Datasets/JSRT/*
 
 !Datasets/Padchest/
 Datasets/Padchest/*
+!Datasets/Padchest/*.txt
 !Datasets/Padchest/preprocess.ipynb
 
 !Datasets/JSRT_Padchest/
@@ -21,10 +22,12 @@ Datasets/JSRT_Padchest/*
 
 !Datasets/Montgomery/
 Datasets/Montgomery/*
+!Datasets/Montgomery/*.txt
 !Datasets/Montgomery/preprocess.ipynb
 
 !Datasets/Shenzen
 Datasets/Shenzen/*
+!Datasets/Shenzen/*.txt
 !Datasets/Shenzen/preprocess.ipynb
 
 !Datasets/Montgomery_Shenzen/
@@ -34,6 +37,14 @@ Datasets/Montgomery_Shenzen/*
 
 Evaluation/*
 !Evaluation/*.ipynb
+!Evaluation/README.md
+!Evaluation/Graphics/
+Evaluation/Graphics/*
+!Evaluation/Graphics/ARCHITECTURE.png
+!Evaluation/Graphics/CAD.jpeg
+!Evaluation/Graphics/QUALITATIVE.png
+!Evaluation/Graphics/FEATURES.png
+
 
 models/*
 !models/*.py
@@ -58,6 +69,7 @@ weights/JSRT_Padchest/*
 weights/Montgomery_Shenzen/*
 !weights/Montgomery_Shenzen/.gitkeep
 
-#.gitignore
-
+.gitignore
+.idea/
+__init__.py
 
