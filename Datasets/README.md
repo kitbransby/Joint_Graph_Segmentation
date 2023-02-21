@@ -33,17 +33,19 @@ Datasets
 
 ### Data sources
 
-Download datasets via the weblinks below and place raw images/landmarks in the corresponding folders. 
+Download datasets via the weblinks below and place raw images in the corresponding folders. 
 
-* Ground Truth: Available at [ngaggion/Chest-xray-landmark-dataset](https://github.com/ngaggion/Chest-xray-landmark-dataset), and place the `landmarks/*` directories into `All_Landmarks/` as shown above.
 * JSRT Dataset: [Available here](http://db.jsrt.or.jp/eng.php)
 * Padchest Dataset: [Available here](https://bimcv.cipf.es/bimcv-projects/padchest/) (Download sample 2)
 * Montgomery Dataset: [Available here]("https://data.lhncbc.nlm.nih.gov/public/Tuberculosis-Chest-X-ray-Datasets/Montgomery-County-CXR-Set/MontgomerySet/CXR_png/index.html")
 * Shenzen Dataset: [Available here]("https://data.lhncbc.nlm.nih.gov/public/Tuberculosis-Chest-X-ray-Datasets/Shenzhen-Hospital-CXR-Set/CXR_png/index.html")
 
+Ground Truth:
+* Available at [ngaggion/Chest-xray-landmark-dataset](https://github.com/ngaggion/Chest-xray-landmark-dataset). Download and place the `landmarks/*` directories into `All_Landmarks/` as shown above.
+
 ### Preprocessing, Mask/SDF generation, and Training Splits
 
-Run `preprocess.ipynb` in each single directory folder
+Run `preprocess.ipynb` in each of the single dataset directories
 
 ### Combined Datasets
 
