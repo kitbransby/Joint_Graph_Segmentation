@@ -37,8 +37,8 @@ Download datasets via the weblinks below and place raw images in the correspondi
 
 * JSRT Dataset: [Available here](http://db.jsrt.or.jp/eng.php)
 * Padchest Dataset: [Available here](https://bimcv.cipf.es/bimcv-projects/padchest/) (Download sample 2)
-* Montgomery Dataset: [Available here]("https://data.lhncbc.nlm.nih.gov/public/Tuberculosis-Chest-X-ray-Datasets/Montgomery-County-CXR-Set/MontgomerySet/CXR_png/index.html")
-* Shenzen Dataset: [Available here]("https://data.lhncbc.nlm.nih.gov/public/Tuberculosis-Chest-X-ray-Datasets/Shenzhen-Hospital-CXR-Set/CXR_png/index.html")
+* Montgomery Dataset: [Available here](https://data.lhncbc.nlm.nih.gov/public/Tuberculosis-Chest-X-ray-Datasets/Montgomery-County-CXR-Set/MontgomerySet/CXR_png/index.html)
+* Shenzen Dataset: [Available here](https://data.lhncbc.nlm.nih.gov/public/Tuberculosis-Chest-X-ray-Datasets/Shenzhen-Hospital-CXR-Set/CXR_png/index.html)
 
 Ground Truth:
 * Available at [ngaggion/Chest-xray-landmark-dataset](https://github.com/ngaggion/Chest-xray-landmark-dataset). Download and place the `landmarks/*` directories into `All_Landmarks/` as shown above.

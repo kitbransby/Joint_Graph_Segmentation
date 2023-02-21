@@ -1,5 +1,7 @@
 # Joint Dense-Point Representation for Contour-Aware Graph Segmentation
 
+![alt text](Evaluation/Graphics/ARCHITECTURE.png "")
+
 ### Installation 
 
 We use the same installation process as [HybridGNet](https://github.com/ngaggion/HybridGNet), and these dependencies can be installed in a fresh conda environment using:
@@ -12,7 +14,7 @@ following install instructions for [BoundaryFormer](https://github.com/mlpc-ucsd
 
 ### Datasets
 
-Instructions for download and preprocess datasets can be found in `Datasets/README.md`
+Instructions for download and preprocessing datasets can be found in `Datasets/README.md`
 
 ### Training
 
