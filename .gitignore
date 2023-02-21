@@ -1,5 +1,8 @@
 archive
 
+*.qsub
+*.ipynb
+
 Datasets/*
 !Datasets/JSRT/
 Datasets/JSRT/*
@@ -52,7 +55,6 @@ weights/Montgomery_Shenzen/*
 !weights/Montgomery_Shenzen/.gitkeep
 
 
-*.qsub
-*.ipynb
-!Evaluation/*.ipynb
+
+#!Evaluation/*.ipynb
 
