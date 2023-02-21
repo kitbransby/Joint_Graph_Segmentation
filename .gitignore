@@ -4,39 +4,33 @@ archive
 *.ipynb
 
 Datasets/*
+!Datasets/README.md
+
 !Datasets/JSRT/
 Datasets/JSRT/*
 !Datasets/JSRT/*.txt
+!Datasets/JSRT/preprocess.ipynb
+
+!Datasets/Padchest/
+Datasets/Padchest/*
+!Datasets/Padchest/preprocess.ipynb
 
 !Datasets/JSRT_Padchest/
 Datasets/JSRT_Padchest/*
-!Datasets/JSRT_Padchest/*.txt
+!Datasets/JSRT_Padchest/.gitkeep
 
 !Datasets/Montgomery/
 Datasets/Montgomery/*
-!Datasets/Montgomery/*.txt
-!Datasets/Montgomery/Images/.gitkeep
-!Datasets/Montgomery/Landmarks/.gitkeep
-!Datasets/Montgomery/Train/*/.gitkeep
-!Datasets/Montgomery/Val/*/.gitkeep
-!Datasets/Montgomery/Test/*/.gitkeep
+!Datasets/Montgomery/preprocess.ipynb
+
+!Datasets/Shenzen
+Datasets/Shenzen/*
+!Datasets/Shenzen/preprocess.ipynb
 
 !Datasets/Montgomery_Shenzen/
 Datasets/Montgomery_Shenzen/*
 !Datasets/Montgomery_Shenzen/.gitkeep
 
-!Datasets/Padchest
-Datasets/Padchest/*
-!Datasets/Padchest/*.txt
-
-!Datasets/Shenzen
-Datasets/Shenzen/*
-!Datasets/Shenzen/*.txt
-!Datasets/Shenzen/Images/.gitkeep
-!Datasets/Shenzen/Landmarks/.gitkeep
-!Datasets/Shenzen/Train/*/.gitkeep
-!Datasets/Shenzen/Val/*/.gitkeep
-!Datasets/Shenzen/Test/*/.gitkeep
 
 Evaluation/*
 !Evaluation/*.ipynb
@@ -64,6 +58,6 @@ weights/JSRT_Padchest/*
 weights/Montgomery_Shenzen/*
 !weights/Montgomery_Shenzen/.gitkeep
 
-.gitignore
+#.gitignore
 
 
