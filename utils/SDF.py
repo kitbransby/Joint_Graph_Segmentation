@@ -1,8 +1,6 @@
 import skimage
 import numpy as np
-import matplotlib.pyplot as plt
 import skfmm
-import cv2
 
 def norm(data):
     return (data - np.min(data)) / (np.max(data) - np.min(data))

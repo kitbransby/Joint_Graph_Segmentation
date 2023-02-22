@@ -27,6 +27,9 @@ Training weights will be saved to `Results/` dir.
 
 ### Paper Reproducibility 
 
-To reproduce the results in the paper, first download the model weights [here](https://drive.google.com/drive/folders/1V-Ohw1_EbIr4rBnk7h8OgRpvWE-JeyJ4?usp=sharing), and place them in the relevant `weights/`
+To reproduce the results in the paper, first download the model weights [here](https://drive.google.com/drive/folders/1V-Ohw1_EbIr4rBnk7h8OgRpvWE-JeyJ4?usp=sharing), and place them in the `weights/`
 directory. Run the evaluation scripts in `Evaluate/`, making sure that the directories described in `Evaluate/README.md` have been created. 
 
+### Acknowledgements
+
+Our codebase is adapted from [HybridGNet](https://github.com/ngaggion/HybridGNet)

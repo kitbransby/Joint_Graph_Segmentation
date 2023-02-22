@@ -142,7 +142,7 @@ if __name__ == "__main__":
     parser.add_argument("--stepsize", default=3000, type=int)
     parser.add_argument("--gamma", default=0.1, type=float)
     parser.add_argument("--dir", default='', type=str)
-    parser.add_argument('--unet_weights', type=str, default='../models/unet_weights/bestDice_JSRT_Padchest.pt')
+    parser.add_argument('--unet_weights', type=str, default='../weights/unet_weights/bestDice_JSRT_Padchest.pt')
     parser.add_argument('--n_classes', type=int, default=3)
     parser.add_argument('--rtn_all', dest='rtn_all', action='store_true')
     parser.set_defaults(rtn_all=False)

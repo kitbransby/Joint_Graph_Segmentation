@@ -158,7 +158,7 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     
     parser.add_argument("--name", type=str, default=datetime.datetime.now().strftime('%m_%d_%H_%M_%S')+'_RASTERIZE')
-    parser.add_argument("--load", default = "../models/hybridgnet_weights/bestMSE_Montgomery_Shenzen.pt", type=str)
+    parser.add_argument("--load", default = "../weights/hybridgnet_weights/bestMSE_Montgomery_Shenzen.pt", type=str)
     parser.add_argument("--inputsize", default = 1024, type=int)
     parser.add_argument("--epochs", default = 2500, type = int)
     parser.add_argument("--lr", default = 1e-4, type = float)

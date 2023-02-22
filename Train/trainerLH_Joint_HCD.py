@@ -215,7 +215,7 @@ if __name__ == "__main__":
     parser.add_argument("--w", default = 3, type = int)
 
     parser.add_argument('--dir', type=str, default='')
-    parser.add_argument('--unet_weights', type=str, default='../models/unet_weights/bestDice_JSRT_Padchest.pt')
+    parser.add_argument('--unet_weights', type=str, default='../weights/unet_weights/bestDice_JSRT_Padchest.pt')
     
     config = parser.parse_args()
     config = vars(config)
