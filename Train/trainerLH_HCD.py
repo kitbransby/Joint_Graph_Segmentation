@@ -233,7 +233,7 @@ if __name__ == "__main__":
     parser.add_argument('--no-IGSC', dest='IGSC', action='store_false')
     parser.set_defaults(IGSC=True)
 
-    parser.add_argument('--dir', type=str, default='')
+    parser.add_argument('--dir', type=str, default='../')
     
     config = parser.parse_args()
     config = vars(config)
@@ -301,10 +301,10 @@ if __name__ == "__main__":
     config['filters'] = [2, f, f, f, f//2, f//2, f//2]
     
     if config['IGSC']:
-        print('Model: HybrigGNet with 2 skip connections')
+        print('Model: HybrigGNet with 2 skip connections + HCD loss')
         model = DoubleSkip(config, D_t, U_t, A_t)
     else:
-        print('Model: HybrigGNet (no skips)')
+        print('Model: HybrigGNet (no skips) + HCD loss')
         model = Hybrid(config, D_t, U_t, A_t)
 
     trainer(train_dataset, val_dataset, model, config)
