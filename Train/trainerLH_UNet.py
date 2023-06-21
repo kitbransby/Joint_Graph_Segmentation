@@ -1,3 +1,5 @@
+import sys
+sys.path.append('..')
 import os
 import torch
 import argparse
@@ -141,7 +143,7 @@ if __name__ == "__main__":
     parser.add_argument("--lr", default = 1e-4, type = float)
     parser.add_argument("--stepsize", default = 3000, type = int)
     parser.add_argument("--gamma", default = 0.1, type = float)
-    parser.add_argument('--dir', type=str, default='')
+    parser.add_argument('--dir', type=str, default='../')
     parser.add_argument('--rtn_all', dest='rtn_all', action='store_true')
     parser.set_defaults(rtn_all=False)
     parser.add_argument("--n_classes", default=3, type=int)

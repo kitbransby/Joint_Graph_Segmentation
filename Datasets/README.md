@@ -1,4 +1,7 @@
 # Datasets
+
+We train and validate our model on four Chest X-ray datasets. 
+
 ### Structure
 
 Structure your directories as below:

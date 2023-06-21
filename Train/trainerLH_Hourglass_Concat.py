@@ -1,3 +1,5 @@
+import sys
+sys.path.append('..')
 import os
 import torch
 import torch.nn.functional as F
@@ -217,7 +219,7 @@ if __name__ == "__main__":
     parser.add_argument("--layer", default = 6, type = int)
     parser.add_argument("--w", default = 3, type = int)
 
-    parser.add_argument('--dir', type=str, default='')
+    parser.add_argument('--dir', type=str, default='../')
     parser.add_argument('--unet_weights', type=str, default='../weights/unet_weights/bestDice_JSRT_Padchest.pt')
     
     config = parser.parse_args()

@@ -1,6 +1,10 @@
 # Joint Dense-Point Representation for Contour-Aware Graph Segmentation
 
-![alt text](Evaluation/Graphics/ARCHITECTURE.png "")
+Accepted at MICCAI 2023 (top 14% of submissions). [Paper PDF (Arxiv pre-print)]()
+
+Paper PDF
+
+![alt text](Evaluation/Graphics/ARCHITECTURE_bigger_label.png "")
 
 ### Installation 
 
@@ -20,7 +24,10 @@ Instructions for download and preprocessing datasets can be found in `Datasets/R
 
 To train our joint dense-point network from scratch with a HCD loss on the JSRT & Padchest dataset, run the following command:
 
-```python Train/trainerLH_Joint_HCD.py```
+```
+cd Train
+python trainerLH_Joint_HCD.py
+```
 
 Trainers for all models and baselines are available in `Train/`, where LH (Lungs & Heart) = JSRT & Padchest dataset, and L (Lungs) = Montgomery & Shenzen dataset.
 Training weights will be saved to `Results/` dir. 
@@ -32,4 +39,4 @@ directory. Run the evaluation scripts in `Evaluate/`, making sure that the direc
 
 ### Acknowledgements
 
-Our codebase is adapted from [HybridGNet](https://github.com/ngaggion/HybridGNet)
+Our codebase is adapted from [HybridGNet](https://github.com/ngaggion/HybridGNet). We thank Nicolas Gaggion for his contributions to polygon-based segmentation. This research is part of AI-based Cardiac Image Computing (AICIC) funded by the faculty of Science and Engineering at Queen Mary University of London. 

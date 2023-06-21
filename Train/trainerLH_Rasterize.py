@@ -1,3 +1,5 @@
+import sys
+sys.path.append('..')
 import os
 import torch
 import torch.nn.functional as F
@@ -184,7 +186,7 @@ if __name__ == "__main__":
     parser.add_argument('--no-IGSC', dest='IGSC', action='store_false')
     parser.set_defaults(IGSC=True)
 
-    parser.add_argument('--dir', type=str, default='')
+    parser.add_argument('--dir', type=str, default='../')
     
     config = parser.parse_args()
     config = vars(config)
