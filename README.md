@@ -1,8 +1,9 @@
-# Joint Dense-Point Representation for Contour-Aware Graph Segmentation
+# Joint Dense-Point Representation for Contour-Aware Graph Segmentation [MICCAI2023]
+### Kit Mills Bransby<sup>1</sup>, Greg Slabaugh<sup>1</sup>, Christos Bourantas<sup>1,2</sup>, Qianni Zhang<sup>1</sup>
+#### <sup>1</sup> Queen Mary University of London, <sup>2</sup> Department of Cardiology, Barts Health NHS Trust, London, United Kingdom
 
-Accepted at MICCAI 2023 (top 14% of submissions). [Paper PDF (Arxiv pre-print)]()
+Accepted at MICCAI 2023 (top 14% of submissions). [Paper PDF (Arxiv pre-print)](https://arxiv.org/abs/2306.12155)
 
-Paper PDF
 
 ![alt text](Evaluation/Graphics/ARCHITECTURE_bigger_label.png "")
 
@@ -39,4 +40,4 @@ directory. Run the evaluation scripts in `Evaluate/`, making sure that the direc
 
 ### Acknowledgements
 
-Our codebase is adapted from [HybridGNet](https://github.com/ngaggion/HybridGNet). We thank Nicolas Gaggion for his contributions to polygon-based segmentation. This research is part of AI-based Cardiac Image Computing (AICIC) funded by the faculty of Science and Engineering at Queen Mary University of London. 
+Our codebase is adapted from [HybridGNet](https://github.com/ngaggion/HybridGNet). We thank Nicolas Gaggion for making this code open-source and publicly available. This research is part of AI-based Cardiac Image Computing (AICIC) funded by the faculty of Science and Engineering at Queen Mary University of London. 
